@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Eq5 MPS" content="cesarvgs" />
+    <title>
+        Cinema Lite  | Inicio
+    </title>
+	 <!--
+    Carga el núcleo de Firebase
+    JS SDK
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js">
+    </script>
+  <!--
+    Agrega el manejo de
+    autenticación.
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js">
+    </script>
+  <!--
+    Agrega el manejo de bases de
+    datos.
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js">
+    </script>
+  
+  <!--
+    Configura la app usando la
+    información del sitio de
+    Firebase.
+  -->
+  <script src="js/init.js" ></script>
+  <script src="js/Sesion.js"></script>
+	  
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="../css/common_style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../css/homepage.css" media="all" />
+</head>
+
+<body>
+		    
+    <div class="transluscent-mat">
+        <header>
+            <div class="header">
+                <div id="bannerimage">
+                    <img id="bannerjpg" src="../images/cinema.png" alt="Cinema Lite" />
+                </div>
+                <div id="bannerlogo">
+                    <a class="homelink" href="index.html"><h1>Cinema Lite</h1></a>
+                </div>
+            </div>
+        </header>
+        <div class="shiftup">
+            <nav>
+                <ul class="navigation">
+                    <li class="nav">
+                        <a href="cartelera.html">Cartelera</a>
+                    </li>
+                    <li class="nav">
+                        <a href="boletos.html">Boletos</a>
+                    </li>
+                    <li class="nav">
+                        <a href="ubicacion.html">Ubicacíon</a>
+                    </li>
+                    <li class="nav">
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+		<div class="container">
+          <div class="row">
+            <div class="container-ind">
+              <div class="title-ind">
+              <h3>Bienvenido al sitio</h3>
+              </div>
+		    <div class="descr">
+              <p>Aquí encontrarás las novedades y futuros estrenos relacionados con nuestro complejo, puedes adquirir tus entradas en la sección de "boletos",
+		si requieres de mayor información acerca de nuestras películas puedes consultar en la sección "cartelera". 
+      
+            </div>
+            <div class="layout">
+                <div class="block">
+                    <div>
+                        <h4 id="feature">PROXIMAMENTE...</h4>
+                    </div>
+                    <div id="textright" class="verticalline block-left">
+                        <h3 id="movieName" class="pfeature">Estreno: 30 de junio de 2022</h3>
+                        <iframe width="420" height="315"
+						src="https://www.youtube.com/embed/W27moupirnI?autoplay=1&mute=1">
+						</iframe>
+                    </div>
+                    <div id="featuretext">
+                        <h3 class="pfeature">MINIONS 2</h3>
+                        <div id="featureinfo">
+                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Kyle Balda</p>
+                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Pierre Coffin, Steve Carrell, Taraji P. Henson</p>
+                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Infantil</p>
+                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>1h 28min</p>
+                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
+                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span> Gru crece siendo un gran admirador de "Los salvajes seis", un supergrupo de villanos. Para demostrarles que puede ser malvado, Gru idea un plan con la esperanza de formar parte de la banda. Por suerte, cuenta con la ayuda de sus fieles seguidores, los Minions, siempre dispuestos a sembrar el caos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+           <div class="layout">
+                <div class="block">
+                    <div>
+                        <h4 id="feature">PROXIMAMENTE...</h4>
+                    </div>
+                    <div id="textright" class="verticalline block-left">
+                        <h3 id="movieName" class="pfeature">Estreno: 08 de julio de 2022</h3>
+                        <iframe width="420" height="315"
+						src="https://www.youtube.com/embed/nGpH8MedZH4?autoplay=1&mute=1">
+						</iframe>
+                    </div>
+                    <div id="featuretext">
+                        <h3 class="pfeature">Thor: Love and Thunder</h3>
+                        <div id="featureinfo">
+                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Taika Waititi </p>
+                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Chris Hemsworth, Christian Bale, Tessa Thompson.</p>
+                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Accion</p>
+                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>2h 13min</p>
+                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
+                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>Thor intenta encontrar la paz interior, pero termina reclutando a Valkyrie, Korg y Jane Foster, quien se ha convertido en Mighty Thor, para ayudar a evitar que Gorr el carnicero de dioses elimine a todos los dioses.</p>
+                         </div>
+                    </div>
+                </div>
+            </div> 
+		    </div>
+				</div> 
+			  </div> 
+			</div> 
+			</div> 
+		</div> 
+	</div>
+               </body>    
+   <footer>
+	   
+	  <!-- <div class="herramientas">
+      <button
+        type="button"
+        name="terminarSesión">
+        Cerrar Sesión
+      </button>
+    </div>   -->
+	   
+        <hr />
+        <div id="bottomfooter">
+            <span>
+                ©Cinema Lite 2022 (Equipo 5 MPS 3CM60).
+            </span>
+        </div>
+    </footer>
+		<script type="module" src="js/CtrlSesion.js"></script> 
+		<script src="js/CtrlSeguridad.js"></script> 
+    
+	
+</body>
+
+</html>
