@@ -30,147 +30,89 @@
         </header>
         
         <div class="shiftup">
+
             <!--Navigation menu-->
             <nav>
-                <ul class="navigation">
-                    <li class="nav">
-                        <a href="cartelera.html" id="currentlink">Cartelera</a>
-                    </li>
-                    <li class="nav">
-                        <a href="boletos.html">Boletos</a>
-                    </li>
-                    <li class="nav">
-                        <a href="ubicacion.html">Ubicacíon</a>
-                    </li>
-                    <li class="nav">
-                        <a href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </nav>
-			
+                <a href="index.html"><img src="images/Logo.png" alt="Logo"></a>
+		        <ul>
+			        <li><a href="cartelera.html">Cartelera</a></li>
+		        </ul>
+		        <ul>
+			        <li><a href="index.html">Inicio de sesión</a></li>
+		        </ul>
+                <form>
+			        <input type="text" placeholder="Buscar...">
+			        <input type="submit" value="Buscar">
+		        </form>
+	        </nav>
 			
             <!--Peliculas en cartelera-->
-            <div class="layout">
-                <div class="block">
-                    <div class="verticalline block-left">
-                        <h4 class="nscs">EN CARTELERA</h4>
-                        <a class="nowshowinglink trailerLink"><h3 class ="links_title" onclick="return change_video('Natures Revenge');">LIGHTYEAR</h3></a>
-                        <img class="poster" src="../images/naturesrevenge.jpg" alt="Nature's Revenge" />
-                        <div class="movie_info">
-                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Angus MacLane</p>
-                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Chris Evans,  Keke Palmer, Dale Soules.</p>
-                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Infantil</p>
-                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>1h 40min</p>
-                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
-                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>Buzz Lightyear se embarca en una aventura intergaláctica con un grupo de reclutas ambiciosos y su compañero robot.</p>
-                        </div>
-                        <div class="botones">
-                                <button class="sala1" type="submit">SALA 1</button>                          
-                        </div>
-                    </div>
-                    <div class="block-right">
-                        <h4 class="nscs" id="coming">EN CARTELERA</h4>
-                        <a class="trailerLink"><h3 class ="links_title" onclick="return change_video('Death by Chocolate');">SONIC 2</h3></a>
-                        <img class="poster" src="../images/chocodeath.jpg" alt="Death by Chocolate" />
-                        <div class="movie_info">
-                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Jeff Fowler</p>
-                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Ben Schwartz, Jim Carrey, Idris Elba.</p>
-                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Ciencia ficción</p>
-                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>2h 00m</p>
-                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
-                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>Después de establecerse en Green Hills, Sonic quiere demostrar que tiene madera de héroe.</p>
-                        </div>
-                        <div class="botones">
-                                <button class="sala1" type="submit">SALA 2</button>                           
-                        </div>
-                    </div>
-                </div>
-                <hr class="betweenmovies"/>
-                <div class="block">
-                    <div class="verticalline block-left">
-						<h4 class="nscs" id="coming">EN CARTELERA</h4>
-                        <a class="nowshowinglink trailerLink"><h3 class ="links_title" onclick="return change_video('In Between Posts');">DR STRANGE MULTIVERSE OF MADNESS </h3></a>
-                        <img class="poster" src="../images/inbetweenposts.jpg" alt="In Between Posts" />
-                        <div class="movie_info">
-                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Sam Raimi</p>
-                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Benedict Cumberbatch, Elizabeth Olsen, Xochitl Gomez</p>
-                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Acción</p>
-                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>2h 06m</p>
-                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
-                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>El Dr. Stephen Strange abre un portal al multiverso al utilizar un hechizo prohibido. Ahora su equipo debe enfrentarse a una amenaza enorme.</p>
-                        </div>
-                        <div class="botones">
-                                <button class="sala1" type="submit">SALA 3</button>                           
-                        </div>
-                    </div>
-                    <div class="block-right">
-						<h4 class="nscs" id="coming">EN CARTELERA</h4>
-                        <a class="trailerLink"><h3 class ="links_title" onclick="return change_video('The Diary');">TOP GUN: MAVERICK
-</h3></a>
-                        <img class="poster" src="../images/thediary.jpg" alt="The Diary" />
-                        <div class="movie_info">
-                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Joseph Kosinski</p>
-                            <p class="pfeature"><span class="subheadings">REPARTO: </span> Tom Cruise, Val Kilmer, Jennifer Connelly.</p>
-                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Acción</p>
-                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>1h 48m</p>
-                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
-                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>Tras más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete "Maverick" Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba.</p>
-                        </div>
+            <h2>Estrenos</h2>
+            <div class="card-container">
 
-                        <div class="botones">
-                                <button class="sala1" type="submit">SALA 4</button>                           
+                <div class="card">
+                    <img src="images/jontycobra.jpg" alt="Card Image">
+                    <h2>Card Title</h2>
+                    <div class="card-text">
+                        <div>
+                            <p><strong>Director:</strong> John Doe</p>
+                            <p><strong>Género:</strong> Acción, Aventura</p>
                         </div>
+                        <div>
+                            <p><strong>Clasificación:</strong> AA</p>
+                            <p><strong>Duración:</strong> 120 minutos</p>
+                        </div>
+                    </div>
+                   
+                    <div class="card-buttons">
+                        <button>Ver Trailer</button>
+                        <button>Comprar Boleto</button>
                     </div>
                 </div>
-                <hr class="betweenmovies"/>
-                <div class="block">
-                    <div class="verticalline block-left">
-						<h4 class="nscs" id="coming">EN CARTELERA</h4>
-                        <a class="nowshowinglink trailerLink"><h3 class ="links_title" onclick="return change_video('Jonty Cobra: Grail');">MORBIUS</h3></a>
-                        <img class="poster" src="../images/jontycobra.jpg" alt="Jonty Cobra: Grail" />
-                        <div class="movie_info">
-                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Daniel Espinosa</p>
-                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Jared Leto, Tyrese Gibson, J.K. Simmons.</p>
-                            <p class="pfeature"><span class="subheadings">GENERO: </span>Acción/Aventura</p>
-                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>1h 44m</p>
-                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
-                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>Ambientada en el universo de Spider Man, se centra en uno de sus villanos más icónicos, Morbius, un doctor que tras sufrir una enfermedad en la sangre y fallar al intentar curarse, se convirtió en un vampiro.</p>
+
+                <div class="card">
+                    <img src="images/brooklyn.jpg" alt="Card Image">
+                    <h2>Card Title</h2>
+                    <div class="card-text">
+                        <div>
+                            <p><strong>Director:</strong> John Doe</p>
+                            <p><strong>Género:</strong> Acción, Aventura</p>
                         </div>
-                        <div class="botones">
-                                <button class="sala1" type="submit">SALA 5</button>                           
+                        <div>
+                            <p><strong>Clasificación:</strong> AA</p>
+                            <p><strong>Duración:</strong> 120 minutos</p>
                         </div>
                     </div>
-                    <div class="block-right">
-						<h4 class="nscs" id="coming">EN CARTELERA</h4>
-                        <a class="trailerLink"><h3 class ="links_title" onclick="return change_video(document.querySelectorAll('links_title')[5].innerHTML);">JURASSIC WORLD DOMINION</h3></a>
-                        <img class="poster" src="../images/brooklyn.jpg" alt="Brooklyn" />
-                        <div class="movie_info">
-                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Colin Trevorrow</p>
-                            <p class="pfeature"><span class="subheadings">REPARTO: </span>Chris Pratt, Bryce Dallas Howard, Sam Neill</p>
-                            <p class="pfeature"><span class="subheadings">GENERO: </span>Aventura/Ciencia ficción</p>
-                            <p class="pfeature"><span class="subheadings">DURACIÓN: </span>2h 16m</p>
-                            <p class="pfeature"><span class="subheadings">IDIOMA: </span>Español</p>
-                            <p class="pfeature"><span class="subheadings">SIPNOSIS: </span>La isla Nublar y su parque han sido destruidos, pero el problema no se terminó. Con los dinosaurios dispersos por todo el mundo, la convivencia entre el presente y el pasado alcanza un nuevo nivel de tensión.</p>
-                        </div>
-                        <div class="botones">
-                                <button class="sala1" type="submit">SALA 6</button>                            
-                        </div>
+                   
+                    <div class="card-buttons">
+                        <button>Ver Trailer</button>
+                        <button>Comprar Boleto</button>
                     </div>
                 </div>
-            </div>
+                
+                <div class="card">
+                    <img src="images/chocodeath.jpg" alt="Card Image">
+                    <h2>Card Title</h2>
+                    <div class="card-text">
+                        <div>
+                            <p><strong>Director:</strong> John Doe</p>
+                            <p><strong>Género:</strong> Acción, Aventura</p>
+                        </div>
+                        <div>
+                            <p><strong>Clasificación:</strong> AA</p>
+                            <p><strong>Duración:</strong> 120 minutos</p>
+                        </div>
+                    </div>
+                   
+                    <div class="card-buttons">
+                        <button>Ver Trailer</button>
+                        <button>Comprar Boleto</button>
+                    </div>
+                </div>
+
         </div>
     </div>
-	
-	 <div class="container">
-      <input type="checkbox" id="btn-mas" />
-      <div class="cerrar">
-        <a href="https://mail.google.com/mail/u/0/?logout&hl=en"" class="cerrarsesion"></a>
-        
-      </div>
-      <div class="btn-mas">
-        <label for="btn-mas" class="fa fa-plus"></label>
-      </div>
-    </div>
+
     
   <footer>
 	   
