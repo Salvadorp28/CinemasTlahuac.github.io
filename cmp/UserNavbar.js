@@ -1,4 +1,4 @@
-class Navbar extends HTMLElement {
+class UserNavbar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = /* html */
             `
@@ -20,4 +20,4 @@ class Navbar extends HTMLElement {
     }
 }
 
-customElements.define("navbar", Navbar);
+customElements.define("userNavbar", UserNavbar);
