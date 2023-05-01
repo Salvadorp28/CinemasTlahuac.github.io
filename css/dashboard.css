@@ -142,6 +142,9 @@ section {
 
 /* Info Personal */
 
+
+/* Info Personal */
+
 .person-info {
 	margin-top: 20px;
 }
@@ -163,6 +166,12 @@ section {
 	align-items: center;
 }
 
+.col img{
+	width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
 button {
 	margin: 5px;
 	padding: 10px;
@@ -181,6 +190,80 @@ button:last-child {
 	background-color: var(--eliminar);
 	color: var(--blanco);
 }
+
+a {
+	text-decoration: none;
+	color: var(--blanco);
+}
+
+/* User Sign Up */
+.user-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.column {
+	flex: 1;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+	width: 500px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	font-size: 16px;
+	min-width: 50%;
+}
+
+input[type="date"],
+select {
+	width: 200px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	font-size: 16px;
+	min-width: 20%;
+	
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	align-items: center;
+	margin-left: 2.5%;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+.form-divider {
+	height: 1px;
+	background-color: #fff;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+
 
 
 
