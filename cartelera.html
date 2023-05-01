@@ -13,41 +13,29 @@
 	<link rel="stylesheet" href="../css/boton.css">
     <!--Icon-Font-->
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <!--SCRIPTS-->
+    <script src="navbar.js"></script>
 </head>
 
 <body>
 	
     <div class="transluscent-mat">
+         <!--Navigation menu-->
+         <div id="navbar"></div>
+         <script> 
+           // call the function to generate the navigation bar
+           createNavbar();
+         </script>
+
         <header>
             <div class="header">
-                <div id="bannerimage">
-                    <img id="bannerjpg" src="../images/cinema.png" alt="Cinema Lite" />
-                </div>
-                <div id="bannerlogo">
-                    <a class="homelink" href="index.html"><h1>Cinema Lite</h1></a>
-                </div>
+                <h2>Estrenos</h2>
             </div>
         </header>
         
         <div class="shiftup">
-
-            <!--Navigation menu-->
-            <nav>
-                <a href="index.html"><img src="images/Logo.png" alt="Logo"></a>
-		        <ul>
-			        <li><a href="cartelera.html">Cartelera</a></li>
-		        </ul>
-		        <ul>
-			        <li><a href="index.html">Inicio de sesión</a></li>
-		        </ul>
-                <form>
-			        <input type="text" placeholder="Buscar...">
-			        <input type="submit" value="Buscar">
-		        </form>
-	        </nav>
 			
             <!--Peliculas en cartelera-->
-            <h2>Estrenos</h2>
             <div class="card-container">
 
                 <div class="card">
@@ -65,8 +53,8 @@
                     </div>
                    
                     <div class="card-buttons">
-                        <button>Ver Trailer</button>
-                        <button>Comprar Boleto</button>
+                        <a href="#" class="button primary">Ver Trailer</a>
+                        <a href="#" class="button secondary">Comprar Boleto</a>
                     </div>
                 </div>
 
@@ -85,8 +73,8 @@
                     </div>
                    
                     <div class="card-buttons">
-                        <button>Ver Trailer</button>
-                        <button>Comprar Boleto</button>
+                        <a href="#" class="button primary">Ver Trailer</a>
+                        <a href="#" class="button secondary">Comprar Boleto</a>
                     </div>
                 </div>
                 
@@ -105,8 +93,8 @@
                     </div>
                    
                     <div class="card-buttons">
-                        <button>Ver Trailer</button>
-                        <button>Comprar Boleto</button>
+                        <a href="#" class="button primary">Ver Trailer</a>
+                        <a href="#" class="button secondary">Comprar Boleto</a>
                     </div>
                 </div>
 
