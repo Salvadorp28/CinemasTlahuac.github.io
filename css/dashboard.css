@@ -4,6 +4,7 @@
     --azul-claro: #1877f2;
     --blanco:#ffffff;
     --gris: #585759;
+	--agregar: #047d17e2;
     --eliminar: #bc1212;
     --modificar: #e3c21f;
     --negro1: #202022;
@@ -124,9 +125,19 @@ section {
 	cursor: pointer; 
 }
 
+.search .agregar {
+	padding: 10px; 
+	background-color: var(--agregar); 
+	color: #fff; 
+	border: none;
+	border-radius: 5px; 
+	cursor: pointer; 
+	text-decoration: none;
+}
+
 .search h2 {
 	font-size: 36px;
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 /* Info Personal */
