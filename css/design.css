@@ -1,0 +1,44 @@
+/*
+
+Colores:
+
+Fondo: #104da9
+#202022
+#585759
+#1877f2
+#1e1e1e
+#010101
+
+
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-bg {
+    background-color: #104da9;
+}
+
+.my-nav-bg {
+    background-color: #010101;
+}
+
+.my-footer-bg {
+    background-color: #010101;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    background-color: white;
+    padding: 0.5em;
+    color: black;
+}
+
+.titulos {
+    font-style: normal;
+    color: white;
+}
